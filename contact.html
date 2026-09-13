@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Lebanon Mental Health Association - Contact Us">
+
+    <title>Contact Us | LMHA</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/lmha-logo.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- =========================================================
+       HEADER
+  ========================================================== -->
+
+    <header class="site-header">
+
+        <div class="header-container">
+
+            <!-- LOGO -->
+            <a href="index.html" class="site-logo">
+
+                <img src="assets/img/lmha-logo.png" alt="Lebanon Mental Health Association">
+
+            </a>
+
+
+            <!-- NAVIGATION -->
+            <nav class="main-nav">
+
+                <ul class="nav-links" id="navLinks">
+
+                    <li>
+                        <a href="index.html">
+                            About Us
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="what-we-do.html">
+                            What We Do
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="research.html">
+                            Research
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html" class="active">
+                            Contact Us
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+
+            <!-- HAMBURGER -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-controls="navLinks"
+                aria-expanded="false">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- =========================================================
+     MAIN
+========================================================= -->
+
+    <main>
+
+        <!-- =========================================================
+       CONTACT PAGE HEADER
+  ========================================================== -->
+
+        <section class="contact-page-header">
+
+            <div class="contact-page-header-container">
+
+                <div class="contact-page-title">
+
+                    <h1>Contact</h1>
+
+                    <p>Get in Touch with Us</p>
+
+                </div>
+
+
+                <div class="contact-breadcrumb">
+
+                    <a href="index.html">
+                        About Us
+                    </a>
+
+                    <span>/</span>
+
+                    <span>
+                        Contact Us
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================================
+       CONTACT SECTION
+  ========================================================== -->
+
+        <section class="contact-section">
+
+            <div class="contact-container">
+
+
+                <!-- =====================================================
+           CONTACT FORM
+      ====================================================== -->
+
+                <div class="contact-form-area">
+
+                    <h2>
+                        Send us a Message
+                    </h2>
+
+
+                    <form class="contact-form" id="contactForm" novalidate>
+
+
+                        <!-- NAME + EMAIL -->
+
+                        <div class="contact-form-row">
+
+                            <div class="form-group">
+
+                                <label for="name">
+                                    Name <span>*</span>
+                                </label>
+
+                                <input type="text" id="name" name="name" autocomplete="name" required>
+
+                                <small class="form-error"></small>
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="email">
+                                    Email <span>*</span>
+                                </label>
+
+                                <input type="email" id="email" name="email" autocomplete="email" required>
+
+                                <small class="form-error"></small>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- SUBJECT -->
+
+                        <div class="form-group">
+
+                            <label for="subject">
+                                Subject <span>*</span>
+                            </label>
+
+                            <input type="text" id="subject" name="subject" required>
+
+                            <small class="form-error"></small>
+
+                        </div>
+
+
+
+                        <!-- MESSAGE -->
+
+                        <div class="form-group">
+
+                            <label for="message">
+                                Message <span>*</span>
+                            </label>
+
+                            <textarea id="message" name="message" rows="8" required></textarea>
+
+                            <small class="form-error"></small>
+
+                        </div>
+
+
+
+                        <!-- BUTTON -->
+
+                        <button type="submit" class="contact-submit-btn">
+                            Send Message
+                        </button>
+
+
+
+                        <!-- SUCCESS MESSAGE -->
+
+                        <div class="form-success-message" id="formSuccessMessage" role="status" aria-live="polite">
+
+                            Message sent successfully. Thank you for contacting LMHA.
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+
+
+                <!-- =====================================================
+           CONTACT INFORMATION
+      ====================================================== -->
+
+                <aside class="contact-info">
+
+                    <h3>
+                        Contact Information
+                    </h3>
+
+
+                    <div class="contact-info-item">
+
+                        <span class="contact-info-title">
+                            Address
+                        </span>
+
+                        <p>
+                            Jnah - Gabriel El Murr Street<br>
+                            Sunrise Building - 2nd Floor
+                        </p>
+
+                    </div>
+
+
+                    <div class="contact-info-item">
+
+                        <span class="contact-info-title">
+                            Phone
+                        </span>
+
+                        <a href="tel:+96170545102">
+                            +961 70 545 102
+                        </a>
+
+                    </div>
+
+
+                    <div class="contact-info-item">
+
+                        <span class="contact-info-title">
+                            Email
+                        </span>
+
+                        <a href="mailto:info@lmha-leb.org">
+                            info@lmha-leb.org
+                        </a>
+
+                    </div>
+
+                </aside>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- =========================================================
+       FOOTER
+  ========================================================== -->
+
+    <footer class="site-footer">
+
+        <div class="footer-container">
+
+            <!-- LOGO -->
+            <div class="footer-logo">
+
+                <a href="index.html">
+                    <img src="assets/img/lmha-logo.png" alt="Lebanon Mental Health Association">
+                </a>
+
+            </div>
+
+
+            <!-- ADDRESS -->
+            <div class="footer-address">
+
+                <h3>Address</h3>
+
+                <p>
+                    Jnah - Gabriel El Murr Street<br>
+                    Sunrise Building - 2nd Floor
+                </p>
+
+            </div>
+
+
+            <!-- CONTACT -->
+            <div class="footer-contact">
+
+                <h3>Contact</h3>
+
+                <a href="tel:+96170545102">
+                    +961 70 545 102
+                </a>
+
+                <a href="mailto:info@lmha-leb.org">
+                    info@lmha-leb.org
+                </a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JS -->
+    <script src="assets/js/app.js"></script>
+
+</body>
+
+</html>
